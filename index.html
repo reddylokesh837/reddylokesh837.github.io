@@ -9,7 +9,7 @@
 </head>
 <body class="bg-[#CA151C]">
     <!-- Main container -->
-    <div class="container bg-white grid grid-cols-1 md:grid-cols-12 gap-5 break-words text-wrap mx-auto w-[1100px] md:max-w-6xl border-none rounded-lg shadow-2xl mt-10 mb-10">
+    <div class="container mx-auto w-full md:w-[1100px] bg-white grid grid-cols-1 md:grid-cols-12 gap-5 rounded-lg shadow-2xl mt-10 mb-10">
 
         <!-- Linux Interface -->
         <div class="col-span-12 bg-gray-700 h-10  rounded-t flex p-1 justify-between">
@@ -20,7 +20,7 @@
             <div class="flex justify-center items-center pl-24">
                 <b class="font-sans font-semibold text-white">lokesh@DevOps: ~ $ cd /root/home/lokesh</b>
             </div>
-            <div class="flex gap-2">
+            <div class="hidden md:flex gap-2">
                 <div class="flex gap-1">
                     <img src="icons/Linux/search.png" alt="" class="hover:cursor-pointer">
                     <img src="icons/Linux/menu.png" alt="" class="hover:cursor-pointer">
@@ -57,7 +57,7 @@
         </div>
 
         <!-- Image -->
-        <div class="grow col-span-12 flex justify-center items-center pt-5 pr-10 md:col-span-4">
+        <div class="grow col-span-12 md:col-span-4 flex justify-center items-center pt-5 md:pr-10">
             <img src="icons/Linux/Profile2.png" alt="" class="w-full max-w-[150px]">
         </div>
 
@@ -252,10 +252,10 @@
 <div class="col-span-12 grow p-10 pt-0 pb-0">
     <section>
         <!-- Nested Grid for Skills and Technologies -->
-        <div class="grid grid-cols-1 md:grid-cols-2 md:p-6 gap-4 mt-1 pl-0 ">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-1 pl-0 ">
         
             <!-- Skills List -->
-            <div class="col-span-6 pb-2 grow pl-0">
+            <div class="col-span-1 md:col-span-1 pb-2 grow pl-0">
                 <h2 class="text-xl font-bold pt-2">Skills & Competencies</h2>
                 <b class="text-gray-700 font-medium italic">...cat /skills/Skills_&_Competencies.txt</b>
                 <div class="p-5 pl-0">
@@ -293,7 +293,7 @@
             </div>
 
             <!-- Tools List -->
-            <div class="col-span-6 pb-2">
+            <div class="col-span-1 md:col-span-1 pb-2 grow pl-0">
                 <h2 class="text-xl font-bold pt-2">Tools & Technologies</h2>
                 <b class="text-gray-700 font-medium italic">...cat /skills/Tools_&_Technologies.txt</b>
                 <div class="p-5 pl-0">
